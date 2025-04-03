@@ -1,4 +1,5 @@
 return {
+    require('no-clown-fiesta.groups.flash'),
     require('no-clown-fiesta.groups.alpha'),
     -- require('no-clown-fiesta.groups.dadbod-ui'),
     -- require('no-clown-fiesta.groups.dapui'),
