@@ -5,7 +5,8 @@ local colors = {
     bg = '#1f1f1f',
     bg_lighter = '#2C2C2C',
     alt_bg = '#171717',
-    accent = '#202020',
+    -- accent = '#202020',
+    accent = '#373737',
 
     border = '#505050',
 
@@ -29,18 +30,31 @@ local colors = {
     magenta = '#AA759F',
     cursor_fg = '#151515',
     cursor_bg = '#D0D0D0',
-    sign_add = '#586935',
+
+    -- sign_add = '#586935',
+    sign_add = '#88afa2',
+    sign_add_light = '',
     sign_change = '#51657B',
-    sign_delete = '#984936',
+    sign_change_light = '',
+    -- sign_delete = '#984936',
+    sign_delete = '#FF8080',
+    sign_delete_light = '',
+
     error = '#FF8080',
     warning = '#ab8550',
     info = '#ab8550',
     hint = '#576f82',
     todo = '#578266',
+
     accent_lighter_blue = '#1e222a',
     accent_blue = '#18191b',
-    accent_green = '#181b18',
-    accent_red = '#1b1818',
+    accent_green = '#323937',
+    accent_red = '#332828',
+
+    -- accent_lighter_blue = '#1e222a',
+    -- accent_blue = '#18191b',
+    -- accent_green = '#181b18',
+    -- accent_red = '#1b1818',
 }
 
 return colors
