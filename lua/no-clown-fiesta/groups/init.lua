@@ -1,5 +1,4 @@
 return {
-    require('no-clown-fiesta.groups.flash'),
     require('no-clown-fiesta.groups.alpha'),
     -- require('no-clown-fiesta.groups.dadbod-ui'),
     -- require('no-clown-fiesta.groups.dapui'),
@@ -25,4 +24,8 @@ return {
     require('no-clown-fiesta.groups.treesitter'),
     -- require('no-clown-fiesta.groups.whichkey'),
     require('no-clown-fiesta.groups.diffview'),
+
+    -- new
+    require('no-clown-fiesta.groups.flash'),
+    require('no-clown-fiesta.groups.lualine'),
 }

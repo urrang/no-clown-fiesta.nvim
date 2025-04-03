@@ -1,10 +1,11 @@
 local colors = {
     none = 'NONE',
     fg = '#E1E1E1',
+    bg = '#151515',
     -- bg = '#1f1f1f',
-    bg = '#1f1f1f',
     bg_lighter = '#2C2C2C',
-    alt_bg = '#171717',
+    -- alt_bg = '#171717',
+    alt_bg = '#000000',
     -- accent = '#202020',
     accent = '#373737',
 
