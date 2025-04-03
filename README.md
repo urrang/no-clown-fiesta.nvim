@@ -22,7 +22,7 @@ and override these.
 
 ```lua
 require("no-clown-fiesta").setup({
-  transparent = false, -- Enable this to disable the bg color
+  transparent = false,
   styles = {
     -- You can set any of the style values specified for `:h nvim_set_hl`
     comments = {},
@@ -38,43 +38,21 @@ require("no-clown-fiesta").setup({
 
 ### Installation
 
-If you are using the lazy, then you can install and configure the plugin like this:
-
-```fnl
-(local opts {:styles {:type {:bold true}
-                      :lsp {:undercurl false}
-                      :match_paren {:underline true}}})
-
-(λ config []
-  (let [plugin (require :no-clown-fiesta)]
-    (plugin.setup opts)
-    (plugin.load)))
-
-{1 :aktersnurra/no-clown-fiesta.nvim :lazy false :priority 1000 : config}
-```
-
-or if you prefer lua:
 
 ```lua
-local opts = {
-  styles = {
-    type = { bold = true },
-    lsp = { underline = false },
-    match_paren = { underline = true },
-  },
-}
-
-local function config()
-  local plugin = require "no-clown-fiesta"
-  plugin.setup(opts)
-  return plugin.load()
-end
-
 return {
-  "aktersnurra/no-clown-fiesta.nvim",
-  priority = 1000,
-  config = config,
-  lazy = false,
+    "aktersnurra/no-clown-fiesta.nvim",
+    priority = 1000,
+    config = function 
+        require('no-clown-fiesta').setup({
+            styles = {
+                type = { bold = true },
+                lsp = { underline = false },
+                match_paren = { underline = true },
+            }
+        })
+    end,
+    lazy = false,
 }
 ```
 
