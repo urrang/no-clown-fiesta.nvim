@@ -1,6 +1,6 @@
 local colors = {
     none = 'NONE',
-    fg = '#E1E1E1',
+    fg = '#CFCFCF',
     -- bg = '#151515',
     bg = '#1f1f1f',
     bg_lighter = '#2C2C2C',
@@ -11,7 +11,7 @@ local colors = {
 
     border = '#505050',
 
-    white = '#E1E1E1',
+    white = '#CFCFCF',
     line_nr = '#505050',
     comment = '#7E7E7E',
     gray = '#373737',
