@@ -1,4 +1,18 @@
 local colors = {
+    -- new variables
+    light_blue = '#9CDCFE',
+    strings = '#CE9178',
+    -- keywords = '#569CD6',
+    -- keywords2 = '#C586C0',
+    -- types = '#4EC9B0',
+    keywords = '#6F99BB',
+    keywords2 = '#BA8BB4',
+    functions = '#DCDCAA',
+    types = '#5EC2AC',
+    numbers = '#B5CEA8',
+    booleans = '',
+    --
+
     none = 'NONE',
     fg = '#CFCFCF',
     -- bg = '#151515',
