@@ -23,6 +23,7 @@ local colors = {
     medium_gray_blue = '#A2B5C1',
     dark_gray_blue = '#65737E',
     cyan = '#88afa2',
+    -- cyan = '#6EBBA8',
     red = '#b46958',
     green = '#90A959',
     yellow = '#F4BF75',
