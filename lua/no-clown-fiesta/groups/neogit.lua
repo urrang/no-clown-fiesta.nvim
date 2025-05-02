@@ -2,6 +2,8 @@ local M = {}
 
 function M.highlight(palette, opts)
     return {
+        NeogitSectionHeader = { fg = palette.keywords2 },
+        NeogitPopupActionKey = { fg = palette.medium_gray_blue },
         NeogitNotificationInfo = { fg = palette.sign_add },
         NeogitNotificationWarning = { fg = palette.warning },
         NeogitNotificationError = { fg = palette.sign_delete },
