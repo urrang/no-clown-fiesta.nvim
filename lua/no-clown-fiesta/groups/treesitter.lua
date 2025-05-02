@@ -38,7 +38,7 @@ function M.highlight(palette, opts)
         ['@keyword.function'] = vim.tbl_extend('force', { fg = palette.keywords }, opts.styles.keywords),
         ['@keyword.import'] = { fg = palette.keywords2 },
         -- ['@keyword.import'] = { fg = palette.red },
-        ['@keyword.operator'] = { fg = palette.gray_blue },
+        -- ['@keyword.operator'] = { fg = palette.gray_blue },
         ['@keyword.repeat'] = { fg = palette.keywords2 },
         ['@label'] = { fg = palette.white },
         ['@lsp.type.comment'] = {},

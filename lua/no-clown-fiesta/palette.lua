@@ -20,9 +20,10 @@ local colors = {
     bg = '#1f1f1f',
     bg_lighter = '#2C2C2C',
     -- alt_bg = '#171717',
-    alt_bg = '#171717',
+    alt_bg = '#181818',
     -- accent = '#202020',
-    accent = '#373737',
+    -- accent = '#373737',
+    accent = '#2C2C2C',
 
     border = '#505050',
 
@@ -36,7 +37,6 @@ local colors = {
     blue = '#BAD7FF',
     gray_blue = '#7E97AB',
     medium_gray_blue = '#A2B5C1',
-    dark_gray_blue = '#65737E',
     cyan = '#88afa2',
     red = '#b46958',
     green = '#90A959',
