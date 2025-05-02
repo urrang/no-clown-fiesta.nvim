@@ -1,4 +1,9 @@
 local colors = {
+    -- fn = '#DCDCAA',
+    fn = '#c5c5a0',
+    -- fn = '#A2B5C1',
+    brown = '#b6927b',
+
     none = 'NONE',
     -- fg = '#E1E1E1',
     fg = '#CFCFCF',
