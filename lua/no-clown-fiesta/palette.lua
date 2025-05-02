@@ -2,6 +2,7 @@ local colors = {
     -- new variables
     light_blue = '#9CDCFE',
     strings = '#CE9178',
+    -- strings = '#b6927b',
     -- keywords = '#569CD6',
     -- keywords2 = '#C586C0',
     -- types = '#4EC9B0',
